@@ -1,0 +1,121 @@
+{
+    "id": "/#/",
+    "start_url": "/#/",
+    "scope": "/",
+    "name": "Muhammad Firaz Putra Sri Ardhya",
+    "short_name": "firazputraa",
+    "description": "Aplikasi untuk berbagi cerita untuk sesama pengguna",
+    "display": "standalone",
+    "background_color": "#213448",
+    "theme_color": "#94B4C1",
+    "icons":[
+        {
+            "src":"images/icons/script_512.png",
+            "type": "image/png",
+            "sizes":"512x512",
+            "purpose": "any"
+        },
+        {
+            "src":"images/icons/script-color_24.png",
+            "type": "image/png",
+            "sizes":"24x24",
+            "purpose": "any"
+        },
+        {
+            "src":"images/icons/script-color_32.png",
+            "type": "image/png",
+            "sizes":"32x32",
+            "purpose": "any"
+        },
+        {
+            "src":"images/icons/script-color_64.png",
+            "type": "image/png",
+            "sizes":"64x64",
+            "purpose": "any"
+        },
+        {
+            "src":"images/icons/script-color_128.png",
+            "type": "image/png",
+            "sizes":"128x128",
+            "purpose": "any"
+        },
+        {
+            "src":"images/icons/script-color_256.png",
+            "type": "image/png",
+            "sizes":"256x256",
+            "purpose": "any"
+        },
+        {
+            "src":"images/icons/script-color_512.png",
+            "type": "image/png",
+            "sizes":"512x512",
+            "purpose": "any"
+        }
+    ],
+    "screenshots":[
+        {
+            "src" : "images/ss/1.png",
+            "sizes": "1920x1043",
+            "type": "image/png",
+            "form_factor":"wide"
+        },
+        {
+            "src" : "images/ss/2.png",
+            "sizes": "1920x1043",
+            "type": "image/png",
+            "form_factor":"wide"
+        },
+        {
+            "src" : "images/ss/3.png",
+            "sizes": "1080x2280",
+            "type": "image/png",
+            "form_factor":"wide"
+        },
+        {
+            "src" : "images/ss/4.png",
+            "sizes": "1080x2280",
+            "type": "image/png",
+            "form_factor":"narrow"
+        },
+        {
+            "src" : "images/ss/5.png",
+            "sizes": "1080x2280",
+            "type": "image/png",
+            "form_factor":"narrow"
+        },
+        {
+            "src" : "images/ss/6.png",
+            "sizes": "1080x2280",
+            "type": "image/png",
+            "form_factor":"narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Story Baru",
+            "short_name": "Story Baru",
+            "description": "Membuat story baru.",
+            "url": "/?source=pwa#/add",
+            "icons": [
+                {
+                    "src": "images/shortcut/add-x512.png",
+                    "type": "image/png",
+                    "sizes": "512x512"
+                }
+            ] 
+        },
+        {
+            "name": "Story Tersimpan",
+            "short_name": "Story Tersimpan",
+            "description": "Melihat daftar story yang tersimpan",
+            "url": "/?source=pwa#/bookmark",
+            "icons": [
+                {
+                    "src": "images/shortcut/bookmark-x512.png",
+                    "type": "image/png",
+                    "sizes": "512x512"
+                }
+            ] 
+        }
+    ]
+}
